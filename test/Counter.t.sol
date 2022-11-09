@@ -9,7 +9,6 @@ contract CounterTest is Test {
 
     function setUp() public {
         counter = new Counter();
-        counter.setNumber(0);
     }
 
     function testIncrement() public {
@@ -17,8 +16,4 @@ contract CounterTest is Test {
         assertEq(counter.number(), 1);
     }
 
-    function testSetNumber(uint256 x) public {
-        counter.setNumber(x);
-        assertEq(counter.number(), x);
-    }
 }
