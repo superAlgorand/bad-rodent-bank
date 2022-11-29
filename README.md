@@ -5,3 +5,4 @@
 Test repo for fuzzing. All contracts guaranteed to lose money.
 
 
+test
